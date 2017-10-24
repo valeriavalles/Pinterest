@@ -1,0 +1,95 @@
+header {
+ display: inline-block;
+}
+
+.icono1 {
+   margin: 20px;
+   float: left;
+   font-size: 35px;
+}
+
+.buscador {
+   margin: 20px;
+   float: left;
+   width:800px ;
+}
+.buscador>.text-uppercase {
+    width: 800px;
+    height:25px ;
+}
+
+#conteiner-icon {
+ margin: 20px;
+ float: left;
+ margin-left: 20px;
+}
+
+#conteiner-icon>.caja {
+    float: left;
+    margin: 20px;
+    font-size: 20px;
+}
+section {
+   display: inline-block;
+   
+}
+section>.uno {
+    background: rgb(206, 7, 7);
+    
+    width: 200px;
+    height: 50px;
+   float: left;
+   margin-left: 10px;
+   border-radius: 100px;
+}
+.dos {
+    background: rgb(128, 115, 0);
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 80px
+    
+}
+.tres {
+    background: grey;
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 80px;
+}
+.cuatro {
+    background: rgb(63, 17, 3);
+    width:80px ;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 80px;
+}
+.cinco {
+    background: rgb(108, 114, 95);
+    width: 200px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 100px;
+}
+.seis {
+    background: rgb(104, 4, 4);
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 80px;
+}
+.siete {
+    background: maroon;
+    width: 200px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 150px;
+}
+
+
