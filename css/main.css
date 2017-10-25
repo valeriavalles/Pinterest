@@ -69,7 +69,7 @@ section>.uno {
 }
 .cinco {
     background: rgb(108, 114, 95);
-    width: 200px;
+    width: 100px;
     height: 50px;
     float: left;
     margin-left: 10px;
@@ -90,6 +90,34 @@ section>.uno {
     float: left;
     margin-left: 10px;
     border-radius: 150px;
+}
+
+
+.columna {
+    float: left;
+    width: 25%;  
+}
+
+.columna>.box {
+    margin: 20px 10px;
+}
+.columna>.box>a {
+    text-decoration: none;
+    color: black;
+}
+.columna>.box>a>img {
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    
+}
+.columna>.box>img>.letras {
+    background-color: white;
+    height: 100px;
+    margin-top: 15px;
+}
+* {
+    box-sizing: border-box;
 }
 
 
