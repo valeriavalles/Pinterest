@@ -3,50 +3,56 @@
 <head>
     <meta charset="UTF-8">
     
-    <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Pinteres</title>
+    
     <link rel="stylesheet" href="asset/iconts/iconos/style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-        <header>
-                
-                    <div class="icono1">
-                        <span class="icon-brand"></span>
-                    </div>
-
-                    <div class="buscador">
-                        
-                    <button class="text-uppercase"></button>
-                    </div>
-
-                    <div id="conteiner-icon">
-                    <div class="caja">
-                        <a href="#" class="icon-user"></a>
-                    </div>
-                    <div class="caja">
-                        <a  href="#" class="icon-menu"></a>
-                    </div>
-                    <div class="caja">
-                        <a href="#" class="icon-bubble2"></a>
-                    </div>
-                     
-                </header>
-        
-          <section>
-                <hr>
-               <div class="uno"><h3>informatica</h3></div>
-               <div class="dos"><h3>futurista</h3></div>
-               <div class="tres"><h3>moderna</h3></div>
-               <div class="cuatro"><h3>celular</h3></div>
-               <div class="cinco"><h3>innovacion</h3></div>
-               <div class="seis"><h3>futuro</h3></div>
-               <div class="siete"><h3>accesorios</h3></div>
-        </section>
+    <header > 
+    <div class="fixed-header">     
+        <div class="icono1">
+            <span class="icon-brand"></span>
+        </div>
+        <div class="buscador">
+          <!--  <span><i class="icon-search"></i></span>-->   
+            <input class="text-uppercase" type="text">       
+        </div>
+        <div id="conteiner-icon">
+            <div class="caja">
+                <a href="#" class="icon-user"></a>
+            </div>
+            <div class="caja">
+                <a  href="#" class="icon-menu"></a>
+            </div>
+            <div class="caja">
+                <a href="#" class="icon-bubble2"></a>
+            </div>
+        </div>
+                            
+    
+    <nav>
+        <div class="cont-colors">
+            <hr>
+               <div class="uno item"><h3>informatica</h3></div>
+               <div class="dos item"><h3>futurista</h3></div>
+               <div class="tres item"><h3>moderna</h3></div>
+               <div class="cuatro item"><h3>celular</h3></div>
+               <div class="cinco item"><h3>innovacion</h3></div>
+               <div class="seis item"><h3>futuro</h3></div>
+               <div class="siete item"><h3>accesorios</h3></div>
+        </div>       
+    </nav>
+</div> 
+</header>
      
     <main>
         <div class="columna">
             <div class="box">
-                <a href="asset/img/cel.jpg"><img src="asset/img/cel.jpg" alt="cel">
+                <a href="asset/img/cel.jpg">
+                    <div id="img-hover" >
+                    <img  src="asset/img/cel.jpg" alt="cel">
+                    </div>
                     <div class="letras">
                         <h3>informatica</h3>
                        <p>Lorem ipsum dolor sit amet consectetur 
@@ -55,7 +61,10 @@
                 </a>
             </div>    
             <div class="box">
-                <a href="asset/img/images.jpg"><img src="" alt=""><img src="asset/img/images.jpg" alt="images">
+                <a href="asset/img/images.jpg">
+                    <div id="img-hover">
+                    <img  src="asset/img/images.jpg" alt="images">
+                    </div>
                     <div class="letras">
                         <h3>redes sociales</h3>
                         <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur 
@@ -64,7 +73,7 @@
                 </a>
             </div>
             <div class="box">
-                <a href="asset/img/dies.jpg"><img src="asset/img/dies.jpg" alt="dies">
+                <a href="asset/img/dies.jpg"><img id="img-hover" src="asset/img/dies.jpg" alt="dies">
                     <div class="letras">
                         <h3></h3>
                         <p></p>
@@ -72,7 +81,7 @@
                 </a>
             </div>
             <div class="box">
-                <a href="asset/img/once.jpg"><img src="asset/img/once.jpg" alt="once">
+                <a href="asset/img/once.jpg"><img id="img-hover" src="asset/img/once.jpg" alt="once">
                     <div class="letras">
                         <h1></h1>
                         <p></p>
@@ -82,7 +91,7 @@
         </div>
         <div class="columna">
                 <div class="box">
-                    <a href="asset/img/teclado.jpg"><img src="asset/img/teclado.jpg" alt="teclado">
+                    <a href="asset/img/teclado.jpg"><img id="img-hover" src="asset/img/teclado.jpg" alt="teclado">
                         <div class="letras">
                             <h3>tech</h3>
                             <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur 
@@ -91,7 +100,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="asset/img/cinco.jpg"><img src="asset/img/cinco.jpg" alt="cinco">
+                    <a href="asset/img/cinco.jpg"><img id="img-hover" src="asset/img/cinco.jpg" alt="cinco">
                         <div class="detalles">
                             <h3>hackers</h3>
                             <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur 
@@ -103,7 +112,7 @@
         </div>
         <div class="columna">
                 <div class="box">
-                    <a href="asset/img/uno.jpg"><img src="asset/img/uno.jpg" alt="uno">
+                    <a href="asset/img/uno.jpg"><img id="img-hover" src="asset/img/uno.jpg" alt="uno">
                     <div class="letras">
                         <h3>detalles</h3>
                         <p>descripciones</p>
@@ -184,8 +193,7 @@
                 </a>
             </div>
     </main>
-           
-        
-   
+    <script src="js/jquery-3.2.1.min.js" ></script>         
+    <script src="js/app.js"></script>   
 </body>
 </html>
