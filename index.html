@@ -2,37 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
     <title>Pinteres</title>
-    
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="asset/iconts/iconos/style.css">
+    <link rel="stylesheet" href="asset/iconts/style.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header > 
-    <div class="fixed-header">     
-        <div class="icono1">
-            <span class="icon-brand"></span>
-        </div>
-        <div class="buscador">
-          <!--  <span><i class="icon-search"></i></span>-->   
-            <input class="text-uppercase" type="text">       
-        </div>
-        <div id="conteiner-icon">
-            <div class="caja">
-                <a href="#" class="icon-user"></a>
+    <div class="fixed-header">
+        <div class="col-md-12">
+        <div class="col-md-8">  
+            <div class="icono1 col-md-2">
+                <span class="icon-brand"></span>
             </div>
-            <div class="caja">
-                <a  href="#" class="icon-menu"></a>
+            <div class="buscador col-md-10">
+                <div class="pad col-md-11"><input class="text-uppercase" type="text" ></div>  
+                <a class="col-md-1"><i class="icon-search"></i></a>       
             </div>
-            <div class="caja">
-                <a href="#" class="icon-bubble2"></a>
-            </div>
+        </div>  
+        <div class="conteiner-icon col-md-3">
+            <a href="#" class=""><i class="icon-user"></i></a>
+            <a  href="#" class="" ><i class="icon-menu"></i></a>
+            <a href="#" class="" ><i class="icon-bubble2"></i></a>
         </div>
+        </div> 
                             
     
     <nav>
-        <div class="cont-colors">
+        <div class="cont-colors ">
             <hr>
                <div class="uno item"><h3>informatica</h3></div>
                <div class="dos item"><h3>futurista</h3></div>
@@ -50,9 +48,9 @@
         <div class="columna">
             <div class="box">
                 <a href="asset/img/cel.jpg">
-                    <div id="img-hover" >
+                    
                     <img  src="asset/img/cel.jpg" alt="cel">
-                    </div>
+                   
                     <div class="letras">
                         <h3>informatica</h3>
                        <p>Lorem ipsum dolor sit amet consectetur 
@@ -62,9 +60,9 @@
             </div>    
             <div class="box">
                 <a href="asset/img/images.jpg">
-                    <div id="img-hover">
+                    
                     <img  src="asset/img/images.jpg" alt="images">
-                    </div>
+                   
                     <div class="letras">
                         <h3>redes sociales</h3>
                         <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur 
@@ -193,7 +191,7 @@
                 </a>
             </div>
     </main>
-    <script src="js/jquery-3.2.1.min.js" ></script>         
+    <script src="vendors/js/jquery-3.2.1.min.js" ></script>         
     <script src="js/app.js"></script>   
 </body>
 </html>
