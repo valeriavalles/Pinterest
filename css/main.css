@@ -98,7 +98,7 @@ nav {
     text-align:center; 
 }
 .uno {
-    background: rgb(206, 7, 7);
+    background: rgba(223, 63, 63, 0.753) ;
     padding: 0;
     width: 200px;
     height: 50px;
@@ -106,7 +106,7 @@ nav {
 }
 
 .dos {
-    background: rgb(128, 115, 0);
+    background: rgba(160, 145, 10, 0.699) ;
     width: 200px;
     height: 50px;
     border-radius: 6px   
@@ -116,31 +116,31 @@ section h3 {
     margin-left: 40px;
 }
 .tres {
-    background: grey;
+    background: rgba(128, 128, 128, 0.671) ;
     width: 150px;
     height: 50px;
     border-radius: 6px;
 }
 .cuatro {
-    background: rgb(63, 17, 3);
+    background: rgba(63, 17, 3, 0.589);
     width:200px ;
     height: 50px;
     border-radius: 6px;
 }
 .cinco {
-    background: rgb(108, 114, 95);
+    background: rgba(108, 114, 95, 0.664);
     width: 180px;
     height: 50px;
     border-radius: 6px;
 }
 .seis {
-    background: rgb(104, 4, 4);
+    background: rgba(104, 4, 4, 0.685) ;
     width: 130px;
     height: 50px;
     border-radius: 6px;
 }
 .siete {
-    background: maroon;
+    background: rgba(128, 0, 0, 0.678) ;
     width: 200px;
     height: 50px;
     border-radius: 6px;
@@ -162,7 +162,7 @@ section h3 {
 }
 
 .columna>.box {
-    margin: 20px 10px;
+    margin: 10px 15px;
 }
 .columna>.box>a {
     text-decoration: none;
@@ -182,7 +182,7 @@ section h3 {
 }
 
 main {
-    margin-top: 12.5%;
+    margin-top: 8%;
 }
 /*--- header user */
 .user {
@@ -229,16 +229,6 @@ main {
     display: block;
     /*background: rgb(112, 111, 111);*/
 }
-
-.gepic  .img {
-   /* height: 280px;
-    left: -20px;
-    position: relative;
-    top: -20px;
-    width:100%;
-    background: yellow;*/
-    
-}
 .cont-img {
     border-radius: 5px;
     background: rgb(238, 234, 234) ;
@@ -255,7 +245,7 @@ main {
     text-decoration: none;
     width: 100%;
     z-index: 100;
-    background-color: rgba(148, 155, 153, 0.562) ;
+    background-color: rgba(136, 138, 137, 0.164)  ;
     color: #fff;
     text-shadow: #000 0px 0px 20px;
 	transition:0.2s;
@@ -282,5 +272,13 @@ main {
     background: rgb(213, 218, 218) ;
 }
 
+.letras {
+    padding: 2%;
+}
+@media (min-width:968){
+    main {
+        margin-top:5%;
+    }
+}
 
 
