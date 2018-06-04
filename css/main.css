@@ -57,7 +57,7 @@ hr {
     border-left:1px solid  rgb(197, 193, 193) ;
     text-decoration: none;
 }
-.text-uppercase {
+.text-upper {
     background:#fff;
    /* background: rgb(233, 232, 232);*/
     outline: none;
@@ -66,23 +66,22 @@ hr {
     border: none;
     
 }
-.text-uppercase:focus{
+.text-upper:focus{
     color: gray;
 }
 
 .conteiner-icon {
 margin-top: 20px;
-margin-left: 1%;
+/* margin-left: 1%; */
 }
 
-#conteiner-icon>.caja {
-   /* float: left;*/
-    /*margin: 20px;*/
-     
-}
+
 .conteiner-icon a {
     text-decoration: none;
    
+}
+.inicio {
+    padding-top: 3px;
 }
 i {
     color: rgb(148, 146, 146);
@@ -153,10 +152,7 @@ section h3 {
     margin-top: 6%;
 }
 
-.columna {
-    float: left;
-    width: 25%;  
-}
+
 .cont-colors {
     overflow: hidden;
 }
@@ -182,12 +178,12 @@ section h3 {
 }
 
 main {
-    margin-top: 8%;
+    margin-top: 10%;
 }
 /*--- header user */
 .user {
-    width: 30px;
-    height: 30px;
+    width: 29px;
+    height: 29px;
     border-radius: 50px;
     display: inline-block;
 }
@@ -225,8 +221,8 @@ main {
     margin: 0 0px 0px 0;
     overflow: hidden;
     position: relative;
-    width: 90%;
-    display: block;
+    /* width: 90%; */
+     display: block; 
     /*background: rgb(112, 111, 111);*/
 }
 .cont-img {
@@ -239,7 +235,8 @@ main {
     font-size: 2.3em;
     font-weight: bold;
     height: 100%;
-    padding-top: 80px;
+    /* padding-top: px; */
+    padding-left: 15px;
     position: absolute;
     text-align: center;
     text-decoration: none;
@@ -251,7 +248,7 @@ main {
 	transition:0.2s;
 }
 .gepic .negro  {
-	display: block;
+	/* display: block; */
 	font-size: 1.4em;
 	font-weight: normal;
 }
@@ -275,10 +272,26 @@ main {
 .letras {
     padding: 2%;
 }
-@media (min-width:968){
-    main {
-        margin-top:5%;
+
+@media (min-width:768px){
+    #margen {
+        margin-top:35%;
     }
+     
+    .columna {
+     float: left; 
+       width: 33.33%;  
+   }
 }
+@media (min-width:968px){
+    #margen {
+        margin-top:9%;
+    }
+    .columna {
+        float: left; 
+          width: 20%;  
+      }
+}
+
 
 
